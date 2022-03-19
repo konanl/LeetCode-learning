@@ -5,9 +5,9 @@ using namespace std;
 
 class Solution {
 /*
-	Ê¹ÓÃ¹şÏ£ÈİÆ÷map´¢´ævectorÖĞ³öÏÖµÄÊı
-	Ö»ÒªÄ¿±êÊı=target-nums[i]
-	ÔòÕÒµ½Á½ÊıÖ®ºÍ=targetµÄÄÇ¶ÔÊıµÄË÷Òı
+	ä½¿ç”¨å“ˆå¸Œå®¹å™¨mapå‚¨å­˜vectorä¸­å‡ºç°çš„æ•°
+	åªè¦ç›®æ ‡æ•°=target-nums[i]
+	åˆ™æ‰¾åˆ°ä¸¤æ•°ä¹‹å’Œ=targetçš„é‚£å¯¹æ•°çš„ç´¢å¼•
 */ 
 public:
 	vector<int> twoSum(vector<int>& nums, int target){
@@ -17,7 +17,8 @@ public:
 			if (mm.count(find) != 0) {
 				return vector<int> {nums[find], i};
 			}
-			return vector<int>();
+			mm[nums[i]] = i;
 		}
+		return vector<int>();
 	}
 };
