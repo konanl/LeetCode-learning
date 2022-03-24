@@ -13,7 +13,7 @@ public:
         int n;
         while(x != 0){
             n = x%10;
-            if(y<(INT_MAX-n)/10 || y>(INT_MIN+n)/10){
+            if(y>(INT_MAX-n)/10 || y<(INT_MIN+n)/10){
                 return 0; //overflows
             }
             y = y*10 + n;
