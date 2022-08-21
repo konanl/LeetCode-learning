@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="LeetCode"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/yan/Desktop/LeetCode-learning/LeetCode/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yan/Desktop/LeetCode-learning/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yan/Desktop/LeetCode-learning/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yan/Desktop/LeetCode-learning/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yan/Desktop/LeetCode-learning/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/yan/Desktop/LeetCode-learning/LeetCode/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yan/Desktop/LeetCode-learning/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yan/Desktop/LeetCode-learning/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yan/Desktop/LeetCode-learning/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yan/Desktop/LeetCode-learning/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/yan/Desktop/LeetCode-learning/LeetCode/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yan/Desktop/LeetCode-learning/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yan/Desktop/LeetCode-learning/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yan/Desktop/LeetCode-learning/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yan/Desktop/LeetCode-learning/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LeetCode">
+				<Option output="/Users/yan/Desktop/LeetCode-learning/LeetCode/cmake-build-debug/LeetCode" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yan/Desktop/LeetCode-learning/LeetCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yan/Desktop/LeetCode-learning/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 LeetCode"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yan/Desktop/LeetCode-learning/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yan/Desktop/LeetCode-learning/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yan/Desktop/LeetCode-learning/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LeetCode/fast">
+				<Option output="/Users/yan/Desktop/LeetCode-learning/LeetCode/cmake-build-debug/LeetCode" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yan/Desktop/LeetCode-learning/LeetCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yan/Desktop/LeetCode-learning/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 LeetCode/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yan/Desktop/LeetCode-learning/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yan/Desktop/LeetCode-learning/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yan/Desktop/LeetCode-learning/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/yan/Desktop/LeetCode-learning/LeetCode/addTwoNumbers.cpp">
+			<Option target="LeetCode"/>
+		</Unit>
+		<Unit filename="/Users/yan/Desktop/LeetCode-learning/LeetCode/convert.cpp">
+			<Option target="LeetCode"/>
+		</Unit>
+		<Unit filename="/Users/yan/Desktop/LeetCode-learning/LeetCode/findMedianSortedArrays.cpp">
+			<Option target="LeetCode"/>
+		</Unit>
+		<Unit filename="/Users/yan/Desktop/LeetCode-learning/LeetCode/lengthOfLongestSubstring.cpp">
+			<Option target="LeetCode"/>
+		</Unit>
+		<Unit filename="/Users/yan/Desktop/LeetCode-learning/LeetCode/longestPalindrome.cpp">
+			<Option target="LeetCode"/>
+		</Unit>
+		<Unit filename="/Users/yan/Desktop/LeetCode-learning/LeetCode/reverse.cpp">
+			<Option target="LeetCode"/>
+		</Unit>
+		<Unit filename="/Users/yan/Desktop/LeetCode-learning/LeetCode/twoSum.cpp">
+			<Option target="LeetCode"/>
+		</Unit>
+		<Unit filename="/Users/yan/Desktop/LeetCode-learning/LeetCode/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
